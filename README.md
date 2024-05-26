@@ -1,4 +1,4 @@
-#Proper Commenting Examples
+# Proper Commenting Examples
 
 In this repository, you will find two complete commenting examples. One in Python within the python/ folder, one in C/C++ in the c++/ folder. The logic and functionality for each example is the same, only the language and commenting syntax is different. Both examples include main, stand-alone functions, and a stand-alone class. Another README explaining each set of code and commenting is included with each example.
 
