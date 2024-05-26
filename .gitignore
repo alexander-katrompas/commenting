@@ -1,0 +1,16 @@
+# ignore everything
+*
+
+# unignore what needs to be tracked
+
+# directories
+!*python/
+!*c++/
+
+# files
+!*.gitignore
+!*.md
+!*.py
+!*.h
+!*.cpp
+
