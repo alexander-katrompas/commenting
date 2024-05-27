@@ -1,4 +1,4 @@
-# Proper Commenting Examples
+# Proper Commenting / Committing / Architecture Examples
 
 In this repository, you will find two complete code examples. One in Python within the python/ folder, one in C/C++ in the c++/ folder. The logic and functionality for each example is the same, only the language and syntax is different. Both examples include main, a stand-alone functions module, and a stand-alone class. Another README explaining each set of code and is included with each example.
 
