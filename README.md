@@ -4,12 +4,12 @@ In this repository, you will find two complete code examples. One in Python with
 
 The purpose of this repo is to demonstrate proper...
 
-## Use of .gitignore and README.md files…
+## Use of .gitignore and README.md Files
 
  - the .gitignore is in the root of the project and applies to the entire project.
  - The global README (this file) applies to the project as a whole. Local README are in each sub-folder explaining each subproject
 
-## Commenting…
+## Commenting
 
  - All files have a proper file comment header.
  - Functions are commented properly.
