@@ -12,5 +12,6 @@
 #include "Square.h"
 
 int compareSquares(Square, Square);
+void reportSquares(Square, Square);
 
 #endif //FUNCTIONS_H

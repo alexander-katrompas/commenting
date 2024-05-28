@@ -34,3 +34,28 @@ int compareSquares(Square sq1, Square sq2){
     return result;
 }
 
+
+void reportSquares(Square sq1, Square sq2){
+/* *************************************************
+This function accepts two square objects, compares
+them by calling compareSquares() and prints the answer.
+Since is it a printing function, that is its only job.
+
+@param sq1 : a square object
+@param sq2 : a square object
+@return na : na
+@exception na : na
+@note na
+* ************************************************* */
+
+    int compare = compareSquares(sq1, sq2);
+
+    if(!compare) {
+        printf("squares are equal");
+    } else if (compare == 1) {
+        printf("square1 is bigger");
+    }  else if (compare == 2) {
+        printf("square2 is bigger");
+    }
+
+}
