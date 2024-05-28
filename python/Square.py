@@ -57,7 +57,7 @@ class Square:
         """
         sets the length of a side of the square
         including error checking that the length
-        is posive, or is set to default value DELNGTH        
+        is positive, or is set to default value DELNGTH        
         
         @param (float) l : the proposed length of 1 side
 
