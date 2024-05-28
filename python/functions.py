@@ -18,7 +18,7 @@ def compareSquares(sq1, sq2):
     @param sq1 : a square object
     @param sq2 : a square object
 
-    @return 0,1,2 : which sqaure is bigger
+    @return 0,1,2 : which square is bigger
 
     @exception (string) : one parameter or the other is not a square
 
