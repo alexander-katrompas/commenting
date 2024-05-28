@@ -4,3 +4,13 @@
 *  Purpose: A demonstration of a properly
 *           constructed and commented functions.h
 ************************************************* */
+
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
+#include <stdio.h>
+#include "Square.h"
+
+int compareSquares(Square, Square);
+
+#endif //FUNCTIONS_H
