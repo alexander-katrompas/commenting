@@ -13,10 +13,10 @@ def compareSquares(sq1, sq2):
     compares there area and will return 0, 1 ,2.
     0: they are equal
     1: the first square is bigger
-    2: the second sqaure is bigger
+    2: the second square is bigger
 
-    @param sq1 : a square object
-    @param sq2 : a square object
+    @param sq1 (square) : a square object
+    @param sq2 (square) : a square object
 
     @return 0,1,2 : which square is bigger
 
@@ -46,8 +46,8 @@ def reportSquares(sq1, sq2):
     Since is it a printing function, that is its
     only job.
 
-    @param sq1 : a square object
-    @param sq2 : a square object
+    @param sq1 (square) : a square object
+    @param sq2 (square) : a square object
 
     @return na : na
 
