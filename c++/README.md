@@ -1,4 +1,7 @@
 # Proper Commenting / Committing / Architecture Example in C/C++
 
-Repo is not ready to be viewed. It will be pushed and ready for viewing within the next two days (by May 30th, 2024)
+See the general readme in the root of the project for a detailed description of what is in this sub-project.
 
+compilation: `g++ -I ./ *.cpp -o main`
+
+usage: `main`
