@@ -51,11 +51,11 @@ Since is it a printing function, that is its only job.
     int compare = compareSquares(sq1, sq2);
 
     if(!compare) {
-        printf("squares are equal");
+        printf("squares are equal\n");
     } else if (compare == 1) {
-        printf("square1 is bigger");
+        printf("square1 is bigger\n");
     }  else if (compare == 2) {
-        printf("square2 is bigger");
+        printf("square2 is bigger\n");
     }
 
 }
