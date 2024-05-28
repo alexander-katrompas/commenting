@@ -8,16 +8,27 @@
 #include "main.h"
 
 int main() {
+/* **********************************
+ * This function is the application driver. It uses
+ * and tests the functions.py and Square.py modules.
+ *
+ * @param na : na
+ * @return (int) : application exit code
+ * @exception na : na
+ * @note na
+ * **********************************/
 
+    Square square1(10); // normally, DO NOT use literals
+    Square square2(5);  // these are used only for demonstation
 
-    Square square1(5);
-    Square square2(10);
+    reportSquares(square1, square2);
 
-    std::cout << "The area of the square is: " << square1.getArea() << std::endl;
-    std::cout << "The area of the square is: " << square2.getArea() << std::endl;
-    std::cout << "Compare squares: " << compareSquares(square1,square2) << std::endl;
-    std::cout << "Compare squares: " << compareSquares(square2,square1) << std::endl;
+    square2.setLength(20);
+    reportSquares(square1, square2);
 
+    square1.setLength(1);
+    square2.setLength(-12);
+    reportSquares(square1, square2);
 
     return 0;
 }
