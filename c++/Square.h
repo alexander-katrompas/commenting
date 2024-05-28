@@ -9,8 +9,31 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
+#define DLENGTH 1
 
 class Square {
+public:
+    /**********************
+    Constructors/Destructor
+    ***********************/
+    Square(float);
+    ~Square();
+
+    /**********************
+    Getters/Accessors
+    ***********************/
+
+    float getArea();
+    float getLength();
+
+    /**********************
+    Setters/Mutators
+    ***********************/
+    void setLength(float);
+
+
+private:
+    float length;
 
 };
 
