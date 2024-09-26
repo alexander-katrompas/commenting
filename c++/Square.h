@@ -39,7 +39,7 @@ public:
 private:
 
     /**********************
-    Private Methods
+    Methods
     ***********************/
 
 
