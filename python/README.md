@@ -1,8 +1,9 @@
 # Proper Commenting / Committing / Architecture Example in Python
 
-See the general readme in the root of the project for a the general description of what is in this sub-project.
+See the general readme in the root of the project for a general description of what is in this sub-project.
 
 Commenting notes:
+ - Each file has a comment header block at the top of the file.
  - Each function and class has a docstring explaining its purpose and usage.
  - Each function docstring includes information about parameters and return values.
  - Each class docstring includes information about attributes and methods.
