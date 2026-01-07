@@ -13,9 +13,9 @@ def main():
     This function is the application driver. It uses
     and tests the functions.py and Square.py modules.
 
-    :param : na
-    :return : na
-    :raises : na
+    :param: na
+    :return: na
+    :raises: na
     :note: na
     """
 
