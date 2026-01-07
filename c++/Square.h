@@ -22,7 +22,6 @@ public:
     /**********************
     Getters/Accessors
     ***********************/
-
     float getArea();
     float getLength();
 

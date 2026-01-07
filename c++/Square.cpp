@@ -20,6 +20,7 @@ Square::Square(float length) {
      ****************************/
     setLength(length);
 }
+
 Square::~Square(){
     /* **************************
      * Destructor (empty)
