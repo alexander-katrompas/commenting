@@ -5,7 +5,7 @@
 #           constructed and commented functions file
 # ###################################################
 
-from Square import Square
+from square import Square
 
 def compareSquares(sq1, sq2):
     """

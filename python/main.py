@@ -6,7 +6,7 @@
 # ###########################################
 
 import functions as fn
-from Square import Square
+from square import Square
 
 def main():
     """
