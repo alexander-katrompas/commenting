@@ -6,7 +6,7 @@
 *           definition file, Square.cpp
 ************************************************* */
 
-#include "Square.h"
+#include "square.h"
 
 Square::Square(float length) {
     /* **************************

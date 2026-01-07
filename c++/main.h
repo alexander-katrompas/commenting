@@ -15,7 +15,7 @@
 
 // Local
 #include "functions.h"
-#include "Square.h"
+#include "square.h"
 
 
 

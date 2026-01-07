@@ -9,7 +9,7 @@
 #define FUNCTIONS_H
 
 #include <stdio.h>
-#include "Square.h"
+#include "square.h"
 
 int compareSquares(Square, Square);
 void reportSquares(Square, Square);
