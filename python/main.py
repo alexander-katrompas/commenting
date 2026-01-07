@@ -13,17 +13,14 @@ def main():
     This function is the application driver. It uses
     and tests the functions.py and Square.py modules.
 
-    @param na : na
-
-    @return na
-
-    @exception na : na
-
-    @note na
+    :param : na
+    :return : na
+    :raises : na
+    :note: na
     """
 
     square1 = Square(10) # normally, DO NOT use literals
-    square2 = Square(5)  # these are used only for demonstation
+    square2 = Square(5)  # these are used only for demonstration
     
     print()
     print("Information about the Square class...")

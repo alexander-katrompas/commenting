@@ -9,21 +9,18 @@ from square import Square
 
 def compareSquares(sq1, sq2):
     """
-    This function accepts two square objects,
-    compares there area and will return 0, 1 ,2.
-    0: they are equal
-    1: the first square is bigger
-    2: the second square is bigger
+    Compare two Square objects by side length.
 
-    @param sq1 (square) : a square object
-    @param sq2 (square) : a square object
-
-    @return 0,1,2 : which square is bigger
-
-    @exception (string) : one parameter or the other is not a square
-
-    @note na
+    :param sq1 : the first square to compare
+    :param sq2 : the second square to compare
+    :return int:
+        0 if both squares are equal in size,
+        1 if the first square is larger,
+        2 if the second square is larger.
+    :raises TypeError : If either argument is not a Square instance.
+    :note: This function strictly compares Square objects
     """
+
     if not isinstance(sq1, Square) or not isinstance(sq2, Square):
         raise TypeError("must be Square type")
     
@@ -40,20 +37,14 @@ def compareSquares(sq1, sq2):
     
 def reportSquares(sq1, sq2):
     """
-    This function accepts what are presumably two
-    square objects, compares them by calling
-    compareSquares() and prints the answer.
-    Since is it a printing function, that is its
-    only job.
+    Accepts two square objects, compares them
+    and prints the answer.
 
-    @param sq1 (square) : a square object
-    @param sq2 (square) : a square object
-
-    @return na : na
-
-    @exception na : na
-
-    @note na
+    :param sq1 : the first square to compare
+    :param sq2 : the second square to compare
+    :return : na
+    :raises : na.
+    :note: function handles TypeErrors from compareSquares.
     """
 
     try:
