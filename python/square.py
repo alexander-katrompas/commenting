@@ -15,6 +15,12 @@ class Square:
 
     :attributes:
         __length (float) : the length of a side of the square
+    :methods:
+        __init__(length) : constructor, sets length
+        getArea() : returns the area of the square
+        getLength() : returns the length of a side of the square
+        setLength(l) : sets the length of a side of the square
+    :note: na
     """
 
     def __init__(self, length):
