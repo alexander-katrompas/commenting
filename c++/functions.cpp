@@ -19,6 +19,7 @@ int compareSquares(Square sq1, Square sq2){
 * @param sq2 : a Square object
 * @return 0,1,2 : which square is bigger
 * @exception none
+* @note : na
 * ************************************************* */
 
     float len1 = sq1.getLength();
