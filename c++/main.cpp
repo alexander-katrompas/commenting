@@ -10,7 +10,7 @@
 int main() {
 /* **********************************
  * This function is the application driver. It uses
- * and tests the functions.py and Square.py modules.
+ * and tests the functions and Square modules.
  *
  * @param na : na
  * @return (int) : application exit code
