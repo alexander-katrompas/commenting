@@ -15,7 +15,7 @@ int main() {
  * @param na : na
  * @return (int) : application exit code
  * @exception na : na
- * @note na
+ * @note : na
  * **********************************/
 
     Square square1(10); // normally, DO NOT use literals
