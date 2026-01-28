@@ -18,7 +18,7 @@ int compareSquares(Square sq1, Square sq2){
 * @param sq1 : a Square object
 * @param sq2 : a Square object
 * @return 0,1,2 : which square is bigger
-* @exception none
+* @exception : none
 * @note : na
 * ************************************************* */
 
@@ -38,15 +38,15 @@ int compareSquares(Square sq1, Square sq2){
 
 void reportSquares(Square sq1, Square sq2){
 /* *************************************************
-This function accepts two square objects, compares
-them by calling compareSquares() and prints the answer.
-Since is it a printing function, that is its only job.
+* This function accepts two square objects, compares
+* them by calling compareSquares() and prints the answer.
+* Since is it a printing function, that is its only job.
 
-@param sq1 : a square object
-@param sq2 : a square object
-@return na : na
-@exception na : na
-@note na
+* @param sq1 : a square object
+* @param sq2 : a square object
+* @return : na
+* @exception : na
+* @note : na
 * ************************************************* */
 
     int compare = compareSquares(sq1, sq2);
