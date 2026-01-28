@@ -14,38 +14,38 @@
 class Square {
 public:
     /**********************
-    Constructors/Destructor
+    * Constructors/Destructor
     ***********************/
     Square(float);
     ~Square();
 
     /**********************
-    Getters/Accessors
+    * Getters/Accessors
     ***********************/
     float getArea();
     float getLength();
 
     /**********************
-    Setters/Mutators
+    * Setters/Mutators
     ***********************/
     void setLength(float);
 
     /**********************
-    Printing Methods
+    * Printing Methods
     ***********************/
 
 
 private:
 
     /**********************
-    Methods
+    * Methods
     ***********************/
 
 
 
 
     /**********************
-    Attributes
+    * Attributes
     ***********************/
     float length;
 
