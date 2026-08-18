@@ -1,54 +1,52 @@
-# ###################################################
-# Name: Alexander Katrompas
-# Assignment: Commenting Demonstration
-# Purpose: A demonstration of a properly
-#           constructed and commented functions file
-# ###################################################
+"""
+Name: Alexander Katrompas
+Assignment: Commenting Demonstration
+Purpose: Demonstrates a properly constructed and
+         documented functions module.
+"""
 
 from square import Square
 
-def compareSquares(sq1, sq2):
+
+def compare_squares(sq1: Square, sq2: Square) -> int:
     """
     Compare two Square objects by side length.
 
     :param sq1: the first square to compare
     :param sq2: the second square to compare
-    :return: (int)
-        0 if both squares are equal in size,
-        1 if the first square is larger,
-        2 if the second square is larger.
-    :raises TypeError: If either argument is not a Square instance.
-    :note: This function strictly compares Square objects
+    :raises TypeError: if either argument is not a Square
+    :return: 0 if the squares are equal, 1 if the first
+             square is larger, or 2 if the second square
+             is larger
+    :note: none
     """
-
     if not isinstance(sq1, Square) or not isinstance(sq2, Square):
-        raise TypeError("must be Square type")
-    
-    len1 = sq1.getLength()
-    len2 = sq2.getLength()
+        raise TypeError("both arguments must be Square objects")
 
-    result = 0    
+    len1 = sq1.get_length()
+    len2 = sq2.get_length()
+    result = 0
+
     if len1 > len2:
         result = 1
     elif len1 < len2:
         result = 2
-    
+
     return result
-    
-def reportSquares(sq1, sq2):
+
+
+def report_squares(sq1: Square, sq2: Square) -> None:
     """
-    Accepts two square objects, compares them
-    and prints the answer.
+    Compare two Square objects and report which is larger.
 
     :param sq1: the first square to compare
     :param sq2: the second square to compare
-    :return: na
-    :raises: na.
-    :note: function handles TypeErrors from compareSquares.
+    :raises: none
+    :return: None
+    :note: handles TypeError raised by compare_squares()
     """
-
     try:
-        compare = compareSquares(sq1, sq2)
+        compare = compare_squares(sq1, sq2)
     except TypeError:
         compare = -1
 
@@ -57,7 +55,6 @@ def reportSquares(sq1, sq2):
     elif compare == 1:
         print("square1 is bigger")
     elif compare == 2:
-        print("square2 is bigger")        
+        print("square2 is bigger")
     else:
-        print("Type Error: compareSquares must be passed two Squares.")
-
+        print("Type Error: compare_squares() must be passed two Square objects.")

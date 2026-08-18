@@ -1,73 +1,68 @@
-# ##############################################
-# Name: Alexander Katrompas
-# Assignment: Commenting Demonstration
-# Purpose: A demonstration of a properly
-#          constructed and commented class file
-# ##############################################
+"""
+Name: Alexander Katrompas
+Assignment: Commenting Demonstration
+Purpose: Demonstrates a properly constructed and
+         documented class module.
+"""
 
-DLENGTH = 1
+DEFAULT_LENGTH = 1.0
+
 
 class Square:
     """
-    This class defines a Square. It must be passed
-    a side length parameter which defaults to __DLENGTH
-    if an invalid a length is passed (i.e. <=0)
+    Represent a square with a configurable side length.
 
-    :attributes:
-        __length (float) : the length of a side of the square
-    :methods:
-        __init__(length) : constructor, sets length
-        getArea() : returns the area of the square
-        getLength() : returns the length of a side of the square
-        setLength(l) : sets the length of a side of the square
-    :note: na
+    The area is calculated on demand rather than stored.
+    A non-positive construction value leaves the square
+    at the default side length.
+
+    :note: none
     """
 
-    def __init__(self, length):
+    def __init__(self, length: float) -> None:
         """
-        Pass in a positive (>0) float value to set the length.
+        Initialize a square with the specified side length.
 
-        :param length: the length of a side of the square
-        :return: na
-        :raises: na
-        :note: if length is invalid (<=0) it is set to default value DLENGTH
+        :param length: the initial side length of the square
+        :raises: none
+        :return: None
+        :note: a non-positive value leaves the length set to
+               DEFAULT_LENGTH
         """
-        self.__length = DLENGTH # default value
-        self.setLength(length)
-   
-    def getArea(self):
-        """
-        Area is not stored as an attribute. It is calculated
-        on demand through this method.
+        self._length: float = DEFAULT_LENGTH
+        self.set_length(length)
 
-        :param: na
-        :return: (float) the area of the square
-        :raises: na
-        :note: area = length * length
+    def get_area(self) -> float:
         """
-        return __length*2
+        Return the area of the square.
 
-    def getLength(self):
+        :param: none
+        :raises: none
+        :return: the area of the square
+        :note: the area is calculated on demand
         """
-        returns the attribute self.__length
+        return self._length * self._length
 
-        :param: na
-        :return: (float) the length of a side of the square
-        :raises: na
-        :note: na
+    def get_length(self) -> float:
         """
-        return self.__length
+        Return the side length of the square.
 
-    def setLength(self, l):
+        :param: none
+        :raises: none
+        :return: the side length of the square
+        :note: none
         """
-        sets the length of a side of the square
-        including error checking that the length
-        is positive, or is set to default value DELNGTH        
+        return self._length
 
-        :param l: the length of a side of the square
-        :return: na
-        :raises: na
-        :note: if length is invalid (<=0) it is not changed
+    def set_length(self, length: float) -> None:
         """
-        if l > 0:
-            self.__length = l
+        Set the side length of the square.
+
+        :param length: the new side length of the square
+        :raises: none
+        :return: None
+        :note: a non-positive value leaves the current length
+               unchanged
+        """
+        if length > 0:
+            self._length = length
