@@ -1,25 +1,24 @@
-/* *************************************************
-*  Name: Alexander Katrompas
-*  Assignment: Demonstration Code
-*  Purpose: A demonstration of a properly
-*           constructed and commented main.cpp
-************************************************* */
+/**
+* Name: Alexander Katrompas
+ * Assignment: Demonstration Code
+ * Purpose: Demonstrates a properly constructed and
+ *          commented main.cpp file.
+ */
 
 #include "main.h"
 
+/**
+ * Serves as the application driver and demonstrates
+ * the functions and Square modules.
+ *
+ * @param none
+ * @exception none
+ * @return application exit code
+ * @note none
+ */
 int main() {
-/* **********************************
-* This function is the application driver. It uses
-* and tests the functions and Square modules.
-*
-* @param na : na
-* @return (int) : application exit code
-* @exception na : na
-* @note : na
-************************************/
-
-    Square square1(10); // normally, DO NOT use literals
-    Square square2(5);  // these are used only for demonstation
+    Square square1(10); // Demonstration values; normally avoid literals.
+    Square square2(5);
 
     reportSquares(square1, square2);
 

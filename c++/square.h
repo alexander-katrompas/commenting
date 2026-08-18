@@ -1,55 +1,46 @@
-/* *************************************************
-*  Name: Alexander Katrompas
-*  Assignment: Demonstration Code
-*  Purpose: A demonstration of a properly
-*           constructed and commented class
-*           declaration file, Square.h
-************************************************* */
+/**
+ * Name: Alexander Katrompas
+ * Assignment: Demonstration Code
+ * Purpose: Demonstrates a properly constructed and
+ *          commented class declaration file, Square.h.
+ */
 
 #ifndef SQUARE_H
 #define SQUARE_H
 
 #define DLENGTH 1
 
+/**
+ * Represents a square with a configurable side length.
+ *
+ * The area is calculated on demand rather than stored
+ * as an attribute.
+ */
 class Square {
+
 public:
-    /**********************
-    * Constructors/Destructor
-    ***********************/
+
+    // Constructors / Destructor
     Square(float);
     ~Square();
 
-    /**********************
-    * Getters/Accessors
-    ***********************/
-    float getArea();
-    float getLength();
+    // Getters / Accessors
+    float getArea() const;
+    float getLength() const;
 
-    /**********************
-    * Setters/Mutators
-    ***********************/
+    // Setters / Mutators
     void setLength(float);
 
-    /**********************
-    * Printing Methods
-    ***********************/
-
+    // Printing Methods
+    // none
 
 private:
 
-    /**********************
-    * Methods
-    ***********************/
+    // Methods
+    // none
 
-
-
-
-    /**********************
-    * Attributes
-    ***********************/
+    // Attributes
     float length;
-
 };
 
-
-#endif //SQUARE_H
+#endif // SQUARE_H

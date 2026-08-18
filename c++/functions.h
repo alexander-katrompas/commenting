@@ -1,17 +1,16 @@
-/* *************************************************
-*  Name: Alexander Katrompas
-*  Assignment: Demonstration Code
-*  Purpose: A demonstration of a properly
-*           constructed and commented functions.h
-************************************************* */
+/**
+ * Name: Alexander Katrompas
+ * Assignment: Demonstration Code
+ * Purpose: Demonstrates a properly constructed and
+ *          commented functions.h file.
+ */
 
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 
-#include <stdio.h>
 #include "square.h"
 
 int compareSquares(Square, Square);
 void reportSquares(Square, Square);
 
-#endif //FUNCTIONS_H
+#endif // FUNCTIONS_H
