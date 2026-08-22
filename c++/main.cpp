@@ -1,5 +1,5 @@
 /**
-* Name: Alexander Katrompas
+ * Name: Alexander Katrompas
  * Assignment: Demonstration Code
  * Purpose: Demonstrates a properly constructed and
  *          commented main.cpp file.
